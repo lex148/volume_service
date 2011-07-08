@@ -1,0 +1,30 @@
+{
+  "name":         "volume_controller",
+  "version":      "0.0.0",
+  "description":  "",
+  "keywords":     [ "control volume of a remote computer over http" ],
+  "maintainers":  [ {
+    "name":   "Lex Childs",
+    "email":  "lex@childs.me"
+  }],
+  "bugs": {
+    "mail": "lex@childs.me"
+  },
+  "repositories": [ {
+      "type":  "git",
+      "url":   ""
+  } ],
+  "engine": "node >= 0.5",
+  "dependencies": {
+    "express":         "2.4.0",
+    "underscore":   "1.1.6"
+  },
+  "devDependencies": {
+    "express":         "2.4.0",
+    "coffee-script":  "1.1.1",
+    "less":           "1.1.2"
+  },
+  "os":       ["linux", "macos"],
+  "cpu":      ["x86", "x86_64"],
+  "engines":  ["v8", "ejs", "node", "rhino"]
+}
